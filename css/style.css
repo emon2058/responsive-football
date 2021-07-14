@@ -133,10 +133,52 @@ header part
 ------------- */
 footer{
     margin-top: 154px;
+    margin-bottom: 63px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .fab{
     margin-left: 15px;
+}
+
+/* ---------------
+    mobile view 
+-----------------*/
+@media screen and (max-width:688px){
+    .header-details{
+        flex-direction: column;
+        width: 100%;
+    }
+    .header-info h1{
+        width: 100%;
+    }
+    .header-image img{
+        width: 100%;
+        margin-top: 25px;
+    }
+  
+    .players{
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+        padding: 0px;
+    }
+    .all-highlights{
+        flex-direction: column;
+        margin: 0 10px;
+
+    }
+    .highlight-image{
+        width: 100%;
+    }
+    .celebration{
+        flex-direction: column;
+        margin: 15px;
+    }
+    .celebration-image img{
+        width:100%;
+    }
+    .footer img{
+        width: 100%;
+    }
 }
