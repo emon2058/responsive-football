@@ -191,3 +191,18 @@ footer{
         width: 96%;
     }
 }
+
+@media screen and (min-width:689px) and (max-width:1024px) {
+    .players{        
+        grid-template-columns: repeat(2,1fr);
+        padding: 0px 80px;
+    }
+
+    .all-highlights{
+        flex-direction: column;
+    }
+
+    .highlight-image{
+        width: 100%;
+    }
+}
