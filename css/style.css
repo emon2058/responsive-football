@@ -152,6 +152,7 @@ footer{
     }
     .header-info h1{
         width: 100%;
+        font-size: 32px;
     }
     .header-image img{
         width: 100%;
@@ -160,13 +161,20 @@ footer{
   
     .players{
         grid-template-columns: repeat(1,1fr);
-        width: 100%;
+        width: 94%;
+        padding: 0px;
+        margin: 0 auto;
+    }
+    .player-bio{
+        margin-right: 0px;
         padding: 0px;
     }
     .all-highlights{
         flex-direction: column;
         margin: 0 10px;
-
+    }
+    .highlights-summary h2{
+        font-size: 30px;
     }
     .highlight-image{
         width: 100%;
@@ -177,8 +185,9 @@ footer{
     }
     .celebration-image img{
         width:100%;
+        margin-right: 0px;
     }
-    .footer img{
-        width: 100%;
+    .football img{
+        width: 96%;
     }
 }
